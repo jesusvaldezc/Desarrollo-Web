@@ -1,20 +1,27 @@
-
-
+header
+{
+    background-image: url(https://wallpaperplay.com/walls/full/8/f/8/87848.jpg);
+    background-size: 100%;
+    padding:0px;
+    margin: 0px;
+    
+}
 #Nombre
 {
-   padding: 0px;
+   padding: 20px 100px 100px 100px;
    margin:  0px;
    text-align: center;
-   color: rgb(93, 95, 95);
+   color: rgb(255, 255, 255);
+   font-size: 180%;
+   text-shadow: 2px 2px black;
 }
 
 #Foto{
-
     display: block;
     margin-left: auto;
     margin-right: auto;
-    padding: 20px;
-    border-radius: 30%;
+    padding: 50px 140px;
+    border-radius: 60%;
 }
 
 body
@@ -25,16 +32,17 @@ body
 
 .contact-info
 {
-    color: rgb(126, 126, 126);r
-    margin: 20px;
+    color: rgb(126, 126, 126);
+    margin: 0px;
     text-align: center;
-    padding: 10px;
-
+    padding: 50px;
+    box-shadow: 1px 1px 5px 3px grey;
 }
 
 .project-names
 {
     text-align: left;
+
 }
 
 .project-description
@@ -42,6 +50,7 @@ body
     text-align: left;
     font-style: italic;
 }
+
 
 
 .education-info
