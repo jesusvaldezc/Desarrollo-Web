@@ -4,7 +4,7 @@ header
     background-size: 100%;
     padding:0px;
     margin: 0px;
-    
+
 }
 #Nombre
 {
@@ -14,6 +14,7 @@ header
    color: rgb(255, 255, 255);
    font-size: 180%;
    text-shadow: 2px 2px black;
+   
 }
 
 #Foto{
@@ -49,6 +50,8 @@ body
 {
     text-align: left;
     font-style: italic;
+    box-shadow: 5px 5px 5px 5px grey;
+    padding: 20px;
 }
 
 
