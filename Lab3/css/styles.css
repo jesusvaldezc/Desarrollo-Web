@@ -10,6 +10,12 @@ body {
   padding: 20px 0px;
 }
 
+ul{
+
+  list-style-type: circle;
+
+}
+
 h1 {
   text-align: center;
   font-size: 2.5em;
@@ -53,6 +59,7 @@ h3 {
 
 h4 {
  display: inline;
+
 }
 
 span {
