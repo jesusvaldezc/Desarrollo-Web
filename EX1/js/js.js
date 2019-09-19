@@ -66,6 +66,8 @@ $("#btn-publicar" ).click(function() {
   let newHtml= ''
   if(nombre!='' && comentario !='' && email !='' && stars !=0)
   {
+
+    $ppp.addClass("done")
   newHtml +=
   `
       <h4>
