@@ -4,7 +4,7 @@
 
 const express = require('express')
 const omdb = require('./movies.js')
-//const port = port.env.PORT || 3000
+const port = process.env.PORT || 3000
 const app = express()
 
 
@@ -58,7 +58,7 @@ app.get('/*', function (request, response) {
 
 })
 
-app.listen(3000, function () {
+app.listen(port, function () {
     console.log('Up and running!')
 })
 
