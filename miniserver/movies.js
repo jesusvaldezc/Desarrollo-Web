@@ -1,4 +1,4 @@
-const credentials = require('./credentials.js')
+
 const request = require('request')
 
 if(process.env.NODE_ENV === 'production'){
@@ -11,7 +11,7 @@ else
 }
 
 const omdbMovie = function (title, callback) {
-    const url = 'http://www.omdbapi.com/?apikey=' + credentials.apikey + '&t=' + title
+    const url = 'http://www.omdbapi.com/?apikey=' + apikey + '&t=' + title
     console.log(url)
     request({ url, json: true }, function (error, response) {
         if (error) {
@@ -41,7 +41,7 @@ const omdbMovie = function (title, callback) {
 
 const omdbSeason = function (title, season, callback) {
 
-    const url = 'http://www.omdbapi.com/?apikey=' + credentials.apikey + '&t=' + title + '&Season=' + season
+    const url = 'http://www.omdbapi.com/?apikey=' + apikey + '&t=' + title + '&Season=' + season
     request({ url, json: true }, function (error, response) {
         if (error) {
             callback('Unable to connect to OMDB service', undefined)
